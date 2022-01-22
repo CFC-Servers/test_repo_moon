@@ -4,6 +4,6 @@ on:
 
 jobs:
   build:
-    uses: cfc-servers/shared_workflows/workflows/moonscript_release.yml@main
+    uses: cfc-servers/shared_workflows/.github/workflows/moonscript_release.yml@main
     secrets:
       github-token: ${{ secrets.GITHUB_TOKEN }}
